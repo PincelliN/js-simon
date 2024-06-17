@@ -7,13 +7,16 @@
     <title>Simon-game</title>
 </head>
 <body>
-    <h1>Simo's Game</h1>
-    <button>Wanna play</button>
-
-    <div id="table-game"></div>
-    <input type="number" placeholder="Inserisci il numero">
-    <button>Invia</button>
-    <div id="Result"></div>
+    <div class="container">
+        <h1>Simo's Game</h1>
+        <button id="wanna-play">Wanna play</button>
+        <section id="playtable" class="hide">
+            <div id="table-game"></div>
+            <input type="number" placeholder="Inserisci il numero">
+            <button id="send-result">Invia</button>
+            <div id="result"></div>
+        </section>
+    </div>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

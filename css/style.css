@@ -3,3 +3,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+#table-game{
+    margin: 0 auto;
+    height:170px;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+}
