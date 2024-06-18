@@ -60,10 +60,10 @@ Send.addEventListener("click", function () {
 
   let NumberUser = parseInt(document.querySelector("input").value);
   //aggiungo solo se il numero del utente non è stato inserito già dal utente
-  if (!Answer.includes(NumberUser) && NumberUser!=NaN) {
+  if (!Answer.includes(NumberUser) && !isNaN(NumberUser) ) {
     Answer.push(NumberUser);
     //se il numero inserito dal utente corrisponde ad uno di quelli cusuali allora aumento il punteggio di 1
-    if (Num.includes(NumberUser)) {
+    if (Num.includes(NumberUser) ) {
       punteggio++;
     }
     //azzero il value del input
